@@ -1,0 +1,22 @@
+img , i {
+    cursor: pointer;
+}
+.row .bg-white {
+    bottom: 5px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+#light-box {
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 999;
+}
+#light-box .main-box {
+    background-image: url("../image/portfolio-1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 400px;
+}
